@@ -11,12 +11,12 @@ const dataList = [
 export default function StudentTable() {
   return (
     <Table data={dataList}>
-      <Column alignwidth={100} sortable fixed resizable>
+      <Column width={100} fixed resizable>
         <HeaderCell>ID</HeaderCell>
         <Cell dataKey="id" />
       </Column>
 
-      <Column width={100} sortable fixed resizable>
+      <Column width={100} fixed resizable>
         <HeaderCell>Name</HeaderCell>
         <Cell dataKey="name" />
       </Column>
